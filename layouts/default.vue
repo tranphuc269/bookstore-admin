@@ -91,7 +91,7 @@
       </v-list>
     </v-navigation-drawer>
     <!-- <v-app-bar
-      :clipped-left="clipped" 
+      :clipped-left="clipped"
       elevate-on-scroll -->
     <v-app-bar
       :color="isDark ? 'default' : 'white'"
@@ -243,7 +243,7 @@ export default {
   components: { SeoHead },
   data() {
     return {
-      title: 'Nuxtify',
+      title: 'BookStore',
       company: global.company,
       // clipped: false,
       // fixed: false,
@@ -252,12 +252,12 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Dashboard',
+          title: 'Tổng quan',
           to: '/'
         },
         {
           icon: 'mdi-chart-bar',
-          title: 'Charts',
+          title: 'Đồ thị',
           to: '/charts'
         },
         {

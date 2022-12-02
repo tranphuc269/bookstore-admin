@@ -120,7 +120,7 @@
           </v-col>
           <v-col cols="12" lg="8">
             <v-card height="100%" light>
-              <v-card-title>Top 3 danh mục có doanh thu cao nhất</v-card-title>
+              <v-card-title>Doanh thu theo từng danh mục</v-card-title>
               <v-card-text>
                 <p>
                   Tổng doanh thu của một danh mục sẽ được tính bằng tổng giá trị sản phẩm bán ra của danh mục đó.
@@ -167,13 +167,10 @@
             <v-card height="100%">
               <v-container fluid>
                 <h3 class="title-page">
-                  Company official yearly calendar release
+                  Lịch vạn niên
                 </h3>
                 <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                  nihil corporis rem iste! Doloribus magni doloremque inventore
-                  natus consectetur corporis debitis nemo numquam explicabo esse
-                  iusto maxime.
+                  Lịch đánh dấu thời điểm quan trọng
                 </div>
                 <v-calendar class="my-6"></v-calendar>
               </v-container>
@@ -182,28 +179,29 @@
           <v-col cols="12" md="4">
             <v-card height="100%">
               <v-container>
-                <h3 class="title-page">Company News Announcement</h3>
+                <h3 class="title-page">Thông báo</h3>
                 <div>
-                  Here are the latest announcement notifications across our
-                  company! So you do not have to fear missing out on the latest
-                  news
+                  Ở đây sẽ có những thông báo mới nhất về đơn hàng của người dùng<br/>
+                  O : Đơn hàng<br/>
+                  P : Sản phẩm<br/>
+                  C : Danh mục<br/>
+                  U : Người dùng.
                 </div>
                 <v-container fluid>
                   <!-- <v-virtual-scroll width="256" height="321" item-height="120"> -->
                   <v-row no-gutters>
                     <v-col cols="2" align-self="center" align="center">
                       <v-avatar color="primary">
-                        <span class="white--text font-weight-bold">AS</span>
+                        <span class="white--text font-weight-bold">O</span>
                       </v-avatar>
                     </v-col>
                     <v-col cols="10">
                       <blockquote class="blockquote grey--text body-1 px-3">
                         <div class="mb-1">
-                          Fugit nihil corporis rem iste! Doloribus magni
-                          doloremque
+                          Đơn hàng #147 vừa được giao
                         </div>
                         <cite class="font-weight-thin"
-                          >- Any Sanders. Sr Marketing Director</cite
+                          >- Bạn có thể theo dõi đơn hàng trên HeyU</cite
                         >
                       </blockquote>
                     </v-col>
@@ -214,34 +212,32 @@
                         class="blockquote grey--text body-1 px-3 text-right"
                       >
                         <div class="mb-1">
-                          Fugit nihil corporis rem iste! Doloremque inventore
-                          natus nemo
+                          Trần Văn Phúc vừa đăng ký tài khoản
                         </div>
                         <cite class="font-weight-thin"
-                          >- Carol Violas. Sales Representative</cite
+                          >- Xem thông tin mới nhất của người này</cite
                         >
                       </blockquote>
                     </v-col>
                     <v-col cols="3" align-self="center" align="center">
                       <v-avatar color="green">
-                        <span class="white--text font-weight-bold">CV</span>
+                        <span class="white--text font-weight-bold">U</span>
                       </v-avatar>
                     </v-col>
                   </v-row>
                   <v-row no-gutters>
                     <v-col cols="2" align-self="center" align="center">
                       <v-avatar color="info">
-                        <span class="white--text font-weight-bold">NM</span>
+                        <span class="white--text font-weight-bold">P</span>
                       </v-avatar>
                     </v-col>
                     <v-col cols="10">
                       <blockquote class="blockquote grey--text body-1 px-3">
                         <div class="mb-1">
-                          Fugit nihil corporis rem iste! Doloribus natus
-                          consectetur
+                          Sản phẩm "Ủa? Genz" đã hết hàng trong kho
                         </div>
                         <cite class="font-weight-thin"
-                          >- Naomi Malone. Country Director</cite
+                          >- Hãy nhập thêm</cite
                         >
                       </blockquote>
                     </v-col>
